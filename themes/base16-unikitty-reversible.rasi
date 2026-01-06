@@ -7,7 +7,7 @@
     lightbg:                     rgba( 75, 72, 78, 75% );
     foreground:                  #c3c2c4;
     background: transparent;
-    background-color:            rgba( 46, 42, 49, 75% );;
+    background-color:            rgba( 46, 42, 49, 75% );
     separatorcolor:              @lightbg;
     border-color:                @green;
     selected-normal-foreground:  @lightbg;
