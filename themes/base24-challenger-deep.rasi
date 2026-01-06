@@ -1,0 +1,32 @@
+* {
+    red:                         #ff5458;
+    blue:                        #65b2ff;
+    green:                       #62d196;
+    cyan:                        #63f2f1;
+    lightfg:                     #a6b3cc;
+    lightbg:                     rgba( 20, 17, 39, 75% );
+    foreground:                  #929bb6;
+    background: transparent;
+    background-color:            rgba( 30, 28, 49, 75% );;
+    separatorcolor:              @lightbg;
+    border-color:                @green;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @blue;
+    selected-active-background:  @lightfg;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+    spacing:                     2;
+}

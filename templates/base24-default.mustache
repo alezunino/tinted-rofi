@@ -1,0 +1,32 @@
+* {
+    red:                         #{{base08-hex}};
+    blue:                        #{{base0D-hex}};
+    green:                       #{{base0B-hex}};
+    cyan:                        #{{base0C-hex}};
+    lightfg:                     #{{base06-hex}};
+    lightbg:                     rgba( {{base01-rgb-r}}, {{base01-rgb-g}}, {{base01-rgb-b}}, 75% );
+    foreground:                  #{{base05-hex}};
+    background: transparent;
+    background-color:            rgba( {{base00-rgb-r}}, {{base00-rgb-g}}, {{base00-rgb-b}}, 75% );;
+    separatorcolor:              @lightbg;
+    border-color:                @green;
+    selected-normal-foreground:  @lightbg;
+    selected-normal-background:  @lightfg;
+    selected-active-foreground:  @blue;
+    selected-active-background:  @lightfg;
+    selected-urgent-foreground:  @background;
+    selected-urgent-background:  @red;
+    normal-foreground:           @foreground;
+    normal-background:           @background;
+    active-foreground:           @blue;
+    active-background:           @background;
+    urgent-foreground:           @red;
+    urgent-background:           @background;
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @lightbg;
+    alternate-active-foreground: @blue;
+    alternate-active-background: @lightbg;
+    alternate-urgent-foreground: @red;
+    alternate-urgent-background: @lightbg;
+    spacing:                     2;
+}

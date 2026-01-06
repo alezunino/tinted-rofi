@@ -1,0 +1,8 @@
+base16-default:
+  extension: .rasi
+  filename: "themes/{{ scheme-system }}-{{ scheme-slug }}.rasi"
+
+base24-default:
+  extension: .rasi
+  filename: "themes/{{ scheme-system }}-{{ scheme-slug }}.rasi"
+  supported-systems: [base24]
