@@ -1,13 +1,13 @@
 * {
-    red:                         #c4746e;
-    blue:                        #8ba4b0;
-    green:                       #8a9a7b;
-    cyan:                        #8ea4a2;
-    lightfg:                     #c8c093;
-    lightbg:                     rgba( 40, 39, 39, 75% );
-    foreground:                  #c5c9c5;
+    red:                         #d54e53;
+    blue:                        #7aa6da;
+    green:                       #b9ca4a;
+    cyan:                        #70c0b1;
+    lightfg:                     #eff1f5;
+    lightbg:                     rgba( 79, 91, 102, 75% );
+    foreground:                  #dfe1e8;
     background: transparent;
-    background-color:            rgba( 24, 22, 22, 75% );
+    background-color:            rgba( 52, 61, 70, 75% );
     separatorcolor:              @lightbg;
     border-color:                @green;
     selected-normal-foreground:  @lightbg;
