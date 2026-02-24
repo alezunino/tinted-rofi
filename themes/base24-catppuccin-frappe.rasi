@@ -4,7 +4,7 @@
     green:                       #a6d189;
     cyan:                        #81c8be;
     lightfg:                     #f2d5cf;
-    lightbg:                     rgba( 65, 69, 89, 75% );
+    lightbg:                     rgba( 41, 44, 60, 75% );
     foreground:                  #c6d0f5;
     background: transparent;
     background-color:            rgba( 48, 52, 70, 75% );
